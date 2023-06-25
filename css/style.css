@@ -1,0 +1,87 @@
+:root{
+    --primary-text-color: #2C2C2C;
+    --acent-text-color: #BBF330;
+    --btn-bg: #BBF330;
+    --acent-btn-bg: #FFE450;
+    
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+
+}
+ul,ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+
+img{
+    display: block;
+    height: auto;
+    max-width: 100;
+}
+
+.container{
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+
+}
+
+.logo{
+    margin: auto;
+}
+
+.nav{
+    margin-right: 30px;
+}
+
+.nav-link{
+    color: var(--primary-text-color);
+font-size: 14px;
+}
+
+.nav-link:hover, 
+.nav-link:focus{
+color: var(--acent-text-color);
+font-weight: 700;
+text-decoration: underline;
+}
+
+.header-button{
+    font-family: inherit;
+    color: var(--primary-text-color);
+    font-style: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    padding: 6px 18px;
+    background-color: #BBF330;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.header-button:focus,
+.header-button:hover{
+    color: var(--acent-btn-bg);
+}
